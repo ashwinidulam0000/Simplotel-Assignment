@@ -1,0 +1,405 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  height: 210vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.topnav {
+  background-color: #eb5255;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0px;
+  padding: 15px;
+}
+
+.img-cont {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.image {
+  height: 15px;
+  width: 15px;
+}
+
+.card-container1 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  box-shadow: 5px 10px 8px grey;
+  flex-wrap: nowrap;
+}
+
+.sub-card {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px;
+  background-image: linear-gradient(to right, #f2d86f, #e6b3dd);
+}
+
+/*
+.btn-card {
+display: flex;
+justify-content: center;
+}
+*/
+
+.bttn {
+  background-color: #eb5255;
+  color: white;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  border: 0px;
+}
+
+.image1 {
+  height: 100vh;
+  width: 50vw;
+}
+
+.card-container2 {
+  height: 100vh;
+  width: 100vw;
+  flex-wrap: nowrap;
+  display: flex;
+  margin-top: 10px;
+  background-image: linear-gradient(to right, #f2d86f, #e6b3dd);
+  box-shadow: 5px 10px 8px grey;
+}
+
+.sub-card2 {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cards {
+  height: 100vh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image2 {
+  height: 200px;
+  width: 250px;
+  margin: 5px;
+}
+
+.image3 {
+  height: 400px;
+  width: 250px;
+  margin: 5px;
+}
+
+.para-card {
+  height: 220px;
+  width: 360px;
+  background-color: #eb5255;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: center;
+  padding: 10px;
+  margin: 30px;
+}
+
+.para2 {
+  font-size: 15px;
+  font-weight: 100px;
+}
+
+.head1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    height: 210vh;
+    width: 100vw;
+  }
+
+  .topnav {
+    background-color: #eb5255;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-item {
+    margin: 0px;
+    padding: 15px;
+  }
+
+  .img-cont {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .image {
+    height: 15px;
+    width: 15px;
+  }
+
+  .card-container1 {
+    height: 100vh;
+    width: 180vw;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 10px 8px grey;
+  }
+
+  .sub-card {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: linear-gradient(to right, #f2d86f, #e6b3dd);
+  }
+
+  /*
+.btn-card {
+display: flex;
+justify-content: center;
+}
+*/
+
+  .bttn {
+    background-color: #eb5255;
+    color: white;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border: 0px;
+  }
+
+  .image1 {
+    height: 100vh;
+    width: 50vw;
+  }
+
+  .card-container2 {
+    height: 140vh;
+    width: 180vw;
+    flex-wrap: nowrap;
+    display: flex;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #f2d86f, #e6b3dd);
+    box-shadow: 5px 10px 8px grey;
+  }
+
+  .sub-card2 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .cards {
+    height: 100vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image2 {
+    height: 200px;
+    width: 250px;
+    margin: 5px;
+  }
+
+  .image3 {
+    height: 400px;
+    width: 250px;
+    margin: 5px;
+  }
+
+  .para-card {
+    height: 260px;
+    width: 410px;
+    background-color: #eb5255;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    padding: 10px;
+    margin: 30px;
+  }
+
+  .para2 {
+    font-size: 15px;
+    font-weight: 100px;
+  }
+
+  .head1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .bg-container {
+    height: 210vh;
+    width: 100vw;
+  }
+
+  .topnav {
+    background-color: #eb5255;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-item {
+    margin: 0px;
+    padding: 15px;
+  }
+
+  .img-cont {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .image {
+    height: 15px;
+    width: 15px;
+  }
+
+  .card-container1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 10px 8px grey;
+  }
+
+  .sub-card {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: linear-gradient(to right, #f2d86f, #e6b3dd);
+  }
+
+  /*
+.btn-card {
+display: flex;
+justify-content: center;
+}
+*/
+
+  .bttn {
+    background-color: #eb5255;
+    color: white;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border: 0px;
+  }
+
+  .image1 {
+    height: 100vh;
+    width: 50vw;
+  }
+
+  .card-container2 {
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: nowrap;
+    display: flex;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #f2d86f, #e6b3dd);
+    box-shadow: 5px 10px 8px grey;
+  }
+
+  .sub-card2 {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards {
+    height: 100vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image2 {
+    height: 180px;
+    width: 250px;
+    margin: 5px;
+  }
+
+  .image3 {
+    height: 360px;
+    width: 250px;
+    margin: 5px;
+  }
+
+  .para-card {
+    height: 260px;
+    width: 410px;
+    background-color: #eb5255;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: center;
+    padding: 10px;
+    margin: 30px;
+  }
+
+  .para2 {
+    font-size: 15px;
+    font-weight: 100px;
+  }
+
+  .head1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
